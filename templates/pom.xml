@@ -1,0 +1,16 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>${GROUP_ID}</groupId>
+  <artifactId>${ARTIFACT_ID}</artifactId>
+  <version>${VERSION}</version>
+  <packaging>aar</packaging>
+  <name>OpenCV Android SDK</name>
+  <description>OpenCV Android SDK</description>
+  <url>https://github.com/autodk/opencv-android-sdk</url>
+  <licenses>
+    <license>
+    <name>Apache License 2.0</name>
+    <url>https://github.com/opencv/opencv/raw/4.x/LICENSE</url>
+    </license>
+  </licenses>
+</project>

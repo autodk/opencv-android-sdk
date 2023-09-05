@@ -1,0 +1,11 @@
+<metadata>
+  <groupId>${GROUP_ID}</groupId>
+  <artifactId>${ARTIFACT_ID}</artifactId>
+  <versioning>
+    <release>${VERSION}</release>
+    <versions>
+$(for v in ${VERSIONS}; do echo "      <version>${v}</version>"; done)
+    </versions>
+    <lastUpdated>$(date +'%Y%m%d%H%M%S')</lastUpdated>
+  </versioning>
+</metadata>
